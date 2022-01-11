@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.inline-block {
+  display: inline-block; 
+  vertical-align: top
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  padding: 1%;
+  background-color: grey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  align-items: space-evenly
+}
+ul {
+  width: 50%;
+  margin-left: auto
+}
+.heroimg {
+  height: stretch;
+  justify-content: center;
+  padding: 25px;
+  align-items: center;
+}
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  background-color: #373738;
+  align-items: space-between;
+  text-align: center;
+  padding: 14px 16px;
+}
+.ulfooter {
+  display:inline-block;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+   align-items: center;
+   font-size: 18px;
+}
+
+button {
+   margin: 15px;
+   padding: 10px;
+   font-weight: bold;
+   background-color: peachpuff
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mySkills {
+  display: grid;
+  grid-template-areas:
+    "mySkills1 mySkills2 mySkills3";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border: 5px solid rgba(92, 104, 113, 1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-block: 2rem;
+  gap: 1.5rem;
+  padding: 50px;
+}
+.h2skills {
+  display: flex;
+  font-family: 'Open Sans';
+  font-size: 48px;
+  color: white;
+  background-color: rgba(92, 104, 113, 1);
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  padding: 30px;
+  }
+
+.mySkills1 {
+  grid-area: mySkills1;
+  color: white;
+  background-color: rgba(243, 80, 111, 1);
+  gap: 1.5rem;
+  margin: 20px;
+ 
+  
+}
+
+.mySkills2 {
+  grid-area: mySkills2;
+  color: white;
+  background-color: rgba(219, 134, 137, 1);
+ 
+  gap: 1.5rem;
+}
+
+.mySkills3 {
+  grid-area: mySkills3;
+   color: white;
+  background-color: rgba(245, 116, 97, 1);
+  
+  gap: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 38px;
+  padding: 50px;
+}
+
+ul {
+  margin: 100px;
+}
+li {
+  font-family: 'Arial';
+  font-size: 28px;
+  padding: 5px;
+}
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border: 5px solid rgba(92, 104, 113, 1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 50px;
+}
+.myWorkH3 {
+  display: block;
+  text-align: center;
+  font-style: bold;
+  
+}
+
+
+.myWorkp {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Arial';
+  padding: 20px;
+ }
+.myButton {
+  display: block;
+  color: white;
+  background-color: rgba(243, 80, 111, 1);
+  border-radius: 12px;
+  border: none;
+  padding: 20px 85px;
+  font-size: 18px;
+  cursor: pointer;
+  font: 'Open Sans';
+  margin: 0 auto;
+  
+}
+
+.myWorkpanicCord {
+  display: flex;
+  border: 5px solid rgba(92, 104, 113, 1);
+  border-radius: 20px;
+  padding: 50px;
+  margin: 50px 0;
+  width: 100%;
+  align-items: space-between;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flexItemleft {
+  flex: 50%;
+}
+
+.flexItemright {
+  flex: 50%
+}
