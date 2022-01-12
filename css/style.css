@@ -1,32 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: space-between;
-  justify-content: center;
-}
-
 .inline-block {
-  display: inline;
-  list-style: none;
-
+  display: inline-block; 
+  vertical-align: top
 }
 
 .logo {
   width: 23%;
   padding: 1%;
-
-}
-.headerComponent1 {
-  display: inline-block;
-  margin: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
   padding: 1%;
   background-color: grey;
   color: white;
@@ -34,17 +23,27 @@ nav {
   font-size: 22px;
   align-items: space-around;
   justify-content: flex-end;
-  ;
+
 }
-ul {
-  width: 50%;
-  margin-left: auto
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
 }
+
 .heroimg {
+  display: flex;
   height: stretch;
   justify-content: center;
   padding: 25px;
   align-items: center;
+  border: 5px solid rgba(92, 104, 113, 1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 50px 0;
+  flex-shrink: 1;
+
 }
 .content {
   width: 500px;
@@ -53,7 +52,6 @@ ul {
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 
@@ -101,6 +99,10 @@ button {
     'mySkills3';
     grid-template-rows: 1fr 1fr 1fr;
   }
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
 }
 
 .h2skills {
@@ -121,8 +123,8 @@ button {
   color: white;
   background-color: rgba(243, 80, 111, 1);
   gap: 1.5rem;
-  margins: 20px;
-  width: 
+  margin: 20px;
+  
   
 }
 
@@ -130,7 +132,7 @@ button {
   grid-area: mySkills2;
   color: white;
   background-color: rgba(219, 134, 137, 1);
- 
+  margin: 20px;
   gap: 1.5rem;
 }
 
@@ -138,7 +140,7 @@ button {
   grid-area: mySkills3;
    color: white;
   background-color: rgba(245, 116, 97, 1);
-  
+  margin: 20px;
   gap: 1.5rem;
 }
 
@@ -247,6 +249,23 @@ footer {
   flex-direction: row;
   justify-content: baseline;
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerCard {
+    border-right: 0px;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+ 
+}
+
 
 .footerSocial {
   display: flex;
